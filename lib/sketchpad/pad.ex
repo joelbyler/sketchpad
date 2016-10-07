@@ -38,7 +38,7 @@ defmodule Sketchpad.Pad do
       IO.puts(">>" <> user_id)
       {:ok, ascii}
     else
-      _ -> :error
+      :error
     end
   end
 
